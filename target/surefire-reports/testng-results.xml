@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-22T09:28:37Z" name="Page Object test example" finished-at="2026-07-22T09:29:26Z" duration-ms="48529">
+    <groups>
+    </groups>
+    <test started-at="2026-07-22T09:28:37Z" name="test-1" finished-at="2026-07-22T09:29:26Z" duration-ms="48529">
+      <class name="com.WebOrders.test.WebOrders_Login">
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:com.WebOrders.test.WebOrders_Login@550dbc7a]" started-at="2026-07-22T14:58:37Z" name="SetUp" finished-at="2026-07-22T14:58:38Z" duration-ms="481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.WebOrders.test.WebOrders_Login@550dbc7a]" started-at="2026-07-22T14:58:38Z" name="initializeTestBaseSetup" finished-at="2026-07-22T14:58:48Z" duration-ms="10076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Login.aspx?ReturnUrl=%2fsamples%2fTestComplete11%2fWebOrders%2fDefault.aspx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.WebOrders.test.WebOrders_Login@550dbc7a]" started-at="2026-07-22T14:58:48Z" name="setUp" finished-at="2026-07-22T14:58:48Z" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:com.WebOrders.test.WebOrders_Login@550dbc7a]" started-at="2026-07-22T14:58:48Z" name="loginTest" description="Login and validate the WebOrder Homepage Text" finished-at="2026-07-22T14:59:00Z" duration-ms="11588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.WebOrders.test.WebOrders_Login@550dbc7a]" started-at="2026-07-22T14:59:00Z" name="takeScreenshot" finished-at="2026-07-22T14:59:00Z" duration-ms="58" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=WebOrders_Login.loginTest()[pri:0, instance:com.WebOrders.test.WebOrders_Login@550dbc7a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="urlTest()[pri:0, instance:com.WebOrders.test.WebOrders_Login@550dbc7a]" started-at="2026-07-22T14:59:00Z" name="urlTest" description="validateURL() method call for URL verification" finished-at="2026-07-22T14:59:12Z" duration-ms="11903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.WebOrders.test.WebOrders_Login@550dbc7a]" started-at="2026-07-22T14:59:12Z" name="takeScreenshot" finished-at="2026-07-22T14:59:12Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=urlTest status=SUCCESS method=WebOrders_Login.urlTest()[pri:0, instance:com.WebOrders.test.WebOrders_Login@550dbc7a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="verifyText()[pri:0, instance:com.WebOrders.test.WebOrders_Login@550dbc7a]" started-at="2026-07-22T14:59:12Z" name="verifyText" description="validateTitle() method call for Title verification" finished-at="2026-07-22T14:59:22Z" duration-ms="10771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.WebOrders.test.WebOrders_Login@550dbc7a]" started-at="2026-07-22T14:59:22Z" name="takeScreenshot" finished-at="2026-07-22T14:59:22Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyText status=SUCCESS method=WebOrders_Login.verifyText()[pri:0, instance:com.WebOrders.test.WebOrders_Login@550dbc7a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WebOrders.test.WebOrders_Login@550dbc7a]" started-at="2026-07-22T14:59:22Z" name="tearDown" finished-at="2026-07-22T14:59:26Z" duration-ms="3508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.WebOrders.test.WebOrders_Login -->
+    </test> <!-- test-1 -->
+  </suite> <!-- Page Object test example -->
+</testng-results>

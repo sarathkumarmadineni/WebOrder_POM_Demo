@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="WebOrder Page Object Model TestNGDemo" thread-count="1" parallel="Classes">
+	<listeners>
+		<listener class-name="com.WebOrders.utils.Listeners" />
+	</listeners>
+	<parameter name="appURL"
+		value="http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Login.aspx?ReturnUrl=%2fsamples%2fTestComplete11%2fWebOrders%2fDefault.aspx" />
+	<parameter name="browserType" value="edge" />
+	<test name="test-1">
+		<classes>
+			<class name="com.WebOrders.test.WebOrders_Login" />
+			<class name="com.WebOrders.test.WebOrder_Order_Test" />
+			<class name="com.WebOrders.test.WebOrder_ViewAllOrders_Test" />
+			<class name="com.WebOrders.test.WebOrder_Product_Price_Discount_Verification" />
+		</classes>
+	</test>
+</suite>

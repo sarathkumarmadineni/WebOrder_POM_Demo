@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <parameter name="appURL" value="http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Login.aspx?ReturnUrl=%2fsamples%2fTestComplete11%2fWebOrders%2fDefault.aspx"/>
+  <parameter name="browserType" value="edge"/>
+  <listeners>
+    <listener class-name="com.WebOrders.utils.Listeners"/>
+  </listeners>
+  <test parallel="tests" name="test-1(failed)">
+    <classes>
+      <class name="com.WebOrders.test.WebOrder_ViewAllOrders_Test">
+        <methods>
+          <include name="takeScreenshot"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="verifyError"/>
+          <include name="verifyEditOrder"/>
+          <include name="SetUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.WebOrders.test.WebOrder_ViewAllOrders_Test -->
+    </classes>
+  </test> <!-- test-1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

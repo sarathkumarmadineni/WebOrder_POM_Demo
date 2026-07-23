@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [WebOrder Page Object Model TestNGDemo]">
+  <parameter name="appURL" value="http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Login.aspx?ReturnUrl=%2fsamples%2fTestComplete11%2fWebOrders%2fDefault.aspx"/>
+  <parameter name="browserType" value="edge"/>
+  <listeners>
+    <listener class-name="com.WebOrders.utils.Listeners"/>
+  </listeners>
+  <test name="test-1(failed)">
+    <classes>
+      <class name="com.WebOrders.test.WebOrder_Order_Test">
+        <methods>
+          <include name="createAndVerifyOrder"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.WebOrders.test.WebOrder_Order_Test -->
+      <class name="com.WebOrders.test.WebOrder_Product_Price_Discount_Verification">
+        <methods>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="verifyProductPrice"/>
+        </methods>
+      </class> <!-- com.WebOrders.test.WebOrder_Product_Price_Discount_Verification -->
+      <class name="com.WebOrders.test.WebOrders_Login">
+        <methods>
+          <include name="setUp"/>
+          <include name="takeScreenshot"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.WebOrders.test.WebOrders_Login -->
+      <class name="com.WebOrders.test.WebOrder_ViewAllOrders_Test">
+        <methods>
+          <include name="takeScreenshot"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="verifyError" invocation-numbers="4 5 6 7 8 9 10 11"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.WebOrders.test.WebOrder_ViewAllOrders_Test -->
+    </classes>
+  </test> <!-- test-1(failed) -->
+</suite> <!-- Failed suite [WebOrder Page Object Model TestNGDemo] -->
